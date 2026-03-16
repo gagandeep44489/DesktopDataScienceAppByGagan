@@ -1,0 +1,124 @@
+# Exam Score Estimator (Python Tkinter App)
+
+A simple **Python desktop application** that estimates a student's overall grade and calculates the **required final exam score to reach a target grade**.
+
+The application is built using **Python and Tkinter**.
+
+---
+
+## Features
+
+* Calculate estimated overall grade
+* Determine required final exam score for a target grade
+* Simple graphical user interface
+* Input validation for percentages
+* Error handling with pop-up alerts
+
+---
+
+## Application Preview
+
+The interface includes:
+
+* Coursework score input
+* Coursework weight input
+* Expected final exam score
+* Final exam weight
+* Target grade
+* Calculate button
+* Result display
+
+---
+
+## Formula Used
+
+Weighted average formula:
+
+Overall Grade
+
+```
+Overall = (CourseworkScore × CourseworkWeight +
+           FinalExamScore × FinalExamWeight) / 100
+```
+
+Required exam score for target grade
+
+```
+RequiredExamScore =
+(TargetGrade × 100 − CourseworkScore × CourseworkWeight)
+/ FinalExamWeight
+```
+
+---
+
+## Requirements
+
+* Python 3.x
+* Tkinter (comes preinstalled with Python)
+
+---
+
+## Installation
+
+Clone the repository
+
+```
+git clone https://github.com/yourusername/exam-score-estimator.git
+```
+
+Navigate to the folder
+
+```
+cd exam-score-estimator
+```
+
+Run the application
+
+```
+python exam_score_estimator.py
+```
+
+---
+
+## Example
+
+Input:
+
+* Coursework Score: 78%
+* Coursework Weight: 60%
+* Expected Exam Score: 75%
+* Exam Weight: 40%
+* Target Grade: 80%
+
+Output:
+
+```
+Estimated Overall Grade: 76.8%
+Required Final Exam Score: 83%
+```
+
+---
+
+## Future Improvements
+
+* Support multiple coursework components
+* Add charts for grade predictions
+* Save results to file
+* Build web version using Flask or Streamlit
+
+---
+
+## Author
+
+Gagandeep Singh
+Data Analyst | Python Developer
+
+* Kaggle
+* GitHub
+* LinkedIn
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
